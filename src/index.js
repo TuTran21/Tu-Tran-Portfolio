@@ -5,6 +5,7 @@ import App from "./js/router/AppRouter";
 import store from "./js/redux/store/store";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
+
 // import * as serviceWorker from './serviceWorker'; //Run offline // Progressive web app
 
 ReactDOM.render(

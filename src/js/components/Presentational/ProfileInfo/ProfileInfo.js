@@ -8,10 +8,10 @@ function ProfileInfo(props) {
   const emailLabel = "Email: ";
   const skypeLabel = "Skype: ";
 
-  const personalInfo = props.personalInfo;
-  const name = personalInfo.fullName;
-  const birthday = personalInfo.dateOfBirth;
-  const { job, email, skype } = personalInfo;
+  const profile = props.profile;
+  const name = profile.fullName;
+  const birthday = profile.dateOfBirth;
+  const { job, email, skype } = profile;
   return (
     <div id="profile-info">
       <ul>

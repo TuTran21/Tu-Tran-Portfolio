@@ -5,17 +5,20 @@ const Experience = props => {
   const { experience } = props;
   const sectionTitle = "Work Experience";
   return (
-    <section class="section-wrapper section-experience gray-bg">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-title">
+    <section
+      id="experience"
+      className="section-wrapper wow fadeInUp section-experience gray-bg"
+    >
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="section-title">
               <h2>{sectionTitle}</h2>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
+        <div className="row">
+          <div className="col-md-12">
             {experience.map(experience => (
               <ContentItem
                 key={experience.project}

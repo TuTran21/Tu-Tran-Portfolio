@@ -5,12 +5,12 @@ import ProgressBar from "../ProgressBar/ProgressBar";
 const ProgressItem = props => {
   const { skillTitle, skillProgress } = props;
   return (
-    <div class="progress-item">
-      <span class="progress-title">{skillTitle}</span>
+    <div className="progress-item">
+      <span className="progress-title">{skillTitle}</span>
 
-      <div class="progress">
+      <div className="progress">
         <ProgressBar valuenow={skillProgress}></ProgressBar>
-        <span class="progress-percent">{skillProgress} %</span>
+        <span className="progress-percent">{skillProgress} %</span>
       </div>
     </div>
   );

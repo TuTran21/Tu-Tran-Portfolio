@@ -4,8 +4,8 @@ const ProfileImg = props => {
   const { avatarUrl } = props;
   const alt = "Tu Tran's avatar";
   return (
-    <div class="profile-img">
-      <img src={avatarUrl} class="img-responsive" alt={alt} />
+    <div className="profile-img">
+      <img src={avatarUrl} className="img-responsive" alt={alt} />
     </div>
   );
 };

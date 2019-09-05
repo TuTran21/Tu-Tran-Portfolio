@@ -7,7 +7,7 @@ const ProgressBar = props => {
   const valuemin = 0;
   return (
     <div
-      class="progress-bar"
+      className="progress-bar"
       role="progressbar"
       aria-valuenow={valuenow}
       aria-valuemin={valuemin}

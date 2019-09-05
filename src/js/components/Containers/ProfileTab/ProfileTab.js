@@ -5,20 +5,20 @@ import ProfileContent from "../../Presentational/ProfileContent/ProfileContent";
 import ProfileImg from "../../Presentational/ProfileImg/ProfileImg";
 
 const ProfileTab = props => {
-  const { avatarUrl, personalInfo } = props;
+  const { avatarUrl, profile } = props;
   return (
     <React.Fragment>
-      <header class="header theiaStickySidebar">
+      <header id="profile" className="header theiaStickySidebar">
         <ProfileImg avatarUrl={avatarUrl}></ProfileImg>
-        <ProfileContent personalInfo={personalInfo}></ProfileContent>
+        <ProfileContent profile={profile}></ProfileContent>
       </header>
     </React.Fragment>
   );
 };
 const mapStateToProps = state => {
   return {
-    personalInfo: state.personalInfo,
-    avatarUrl: state.appResources.avatarUrl
+    profile: state.profile,
+    avatarUrl: state.profile.avatarUrl
   };
 };
 
