@@ -11,7 +11,7 @@ function App() {
   return (
     <Router history={history}>
       <Switch>
-        <Route exact path="/" component={Index} />
+        <Route path="/" component={Index} />
         <Redirect to="/" />
       </Switch>
       {/* FOOTER */}
