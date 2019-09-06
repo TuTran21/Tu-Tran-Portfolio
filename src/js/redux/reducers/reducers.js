@@ -8,7 +8,7 @@ const initialState = {
     dateOfBirth: "08 January 1997",
     job: "Freelancer",
     avatarUrl:
-      "https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+      "https://res.cloudinary.com/doyyjeich/image/upload/v1567763974/onlinePortfolio/profileimg_h6yhbq.jpg",
     email: "tmtwns@gmail.com",
     skype: "tmtwns",
     about: {
