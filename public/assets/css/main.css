@@ -251,7 +251,7 @@ button:focus,
 
 .section-title h2 {
   margin-bottom: 5px;
-  color: gold;
+  color: rgb(243, 207, 0);
   text-transform: uppercase;
 }
 
@@ -600,9 +600,6 @@ button:focus,
   background-image: -moz-linear-gradient(0deg, #ffc107 0%, #ffeeba 100%);
   background-image: -webkit-linear-gradient(0deg, #ffc107 0%, #ffeeba 100%);
   background-image: -ms-linear-gradient(0deg, #ffc107 0%, #ffeeba 100%);
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
 }
 
 .btn-toTop.show {
