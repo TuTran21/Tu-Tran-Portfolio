@@ -2,7 +2,6 @@ import React from "react";
 
 const ProgressBar = props => {
   const { valuenow } = props;
-  console.log(valuenow);
   const valuemax = 100;
   const valuemin = 0;
   return (

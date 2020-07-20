@@ -1,7 +1,7 @@
 import React from "react";
 import ContentItem from "../ContentItem/ContentItem";
 
-const Experience = props => {
+const Experience = (props) => {
   const { experience } = props;
   const sectionTitle = "Work Experience";
   return (
@@ -19,13 +19,33 @@ const Experience = props => {
         </div>
         <div className="row">
           <div className="col-md-12">
-            {experience.map(experience => (
+            <div className="section-title">
+              <h5>COMPANIES: </h5>
+            </div>
+            {experience.companies.map((company) => (
               <ContentItem
-                key={experience.project}
-                time={experience.time}
-                title={experience.project}
-                subtitle={experience.role}
-                extra={experience.extra}
+                key={company.project}
+                time={company.time}
+                title={company.project}
+                subtitle={company.role}
+                extra={company.extra}
+              ></ContentItem>
+            ))}
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-12">
+            <div className="section-title">
+              <h5>PROJECTS: </h5>
+            </div>
+            {experience.projects.map((project) => (
+              <ContentItem
+                key={project.project}
+                time={project.time}
+                title={project.project}
+                subtitle={project.role}
+                extra={project.extra}
               ></ContentItem>
             ))}
           </div>

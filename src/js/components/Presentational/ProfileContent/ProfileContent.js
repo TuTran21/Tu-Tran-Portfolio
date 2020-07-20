@@ -54,6 +54,16 @@ const ProfileContent = props => {
             <i className="fa fa-github"></i>
           </a>
         </li>
+        <li>
+          <a
+            href="https://codepen.io/tran-tu-the-flexboxer"
+            target="_blank"
+            data-toggle="tooltip"
+            title="codepen"
+          >
+            <i class="fa fa-codepen"></i>
+          </a>
+        </li>
       </ul>
     </div>
   );
