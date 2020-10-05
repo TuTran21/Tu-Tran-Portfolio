@@ -66,9 +66,19 @@ const initialState = {
       skillTitle: "ReactJs",
       skillProgress: "75",
     },
+
+    {
+      skillTitle: "Nextjs",
+      skillProgress: "75",
+    },
     {
       skillTitle: "NodeJs",
       skillProgress: "55",
+    },
+
+    {
+      skillTitle: "GraphQL",
+      skillProgress: "65",
     },
     {
       skillTitle: "Photoshop / Illustrator",
@@ -81,7 +91,7 @@ const initialState = {
     },
     {
       skillTitle: "MongoDB",
-      skillProgress: "55",
+      skillProgress: "65",
     },
   ],
   experience: {
@@ -127,9 +137,32 @@ const initialState = {
       {
         time: "10/2019 - 03/2020",
         project: "Nordic Coder Career Portal",
-        role: "Front-end developer",
+        role: "Front-end Developer | Backend Developer",
         extra:
           "An internal project that aims to provide job and talent seeking for candidates and companies. I participated in writing Nodejs backend with Nestjs framework and MySQL database, from which I learned Typescript, MySQL and Nestjs. Occasionally, I joined in front-end as well in small features to speed up the progress.",
+      },
+      {
+        time: "4/2019 - 06/2020",
+        project: "Online IELTS Test",
+        role: "Front-end Developer",
+        extra:
+          "A personal project which i did mostly for fun and no commercial intentions, which allow users to take online IELTS tests, have a personal profile and social media to stay connected and improve together in a form of fun and engagement. Built with Reactjs, Apollo Client, Apollo Server, GraphQL as query language, and Nodejs, MongoDB as backend.",
+        button: {
+          url: "https://online-test-tu-tran-fe.herokuapp.com/",
+          text: "Visit",
+        },
+      },
+
+      {
+        time: "6/2019 - 10/2020",
+        project: "Dunkeygames.tk",
+        role: "Front-end Developer | Backend Developer",
+        extra:
+          "A personal project that acts as a blog to share games, softwares and community. Built with Nextjs, headless CMS Strapi, and nodejs as backend.",
+        button: {
+          url: "https://dunkeygames.tk/",
+          text: "Visit",
+        },
       },
     ],
   },

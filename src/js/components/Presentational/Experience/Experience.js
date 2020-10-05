@@ -46,6 +46,7 @@ const Experience = (props) => {
                 title={project.project}
                 subtitle={project.role}
                 extra={project.extra}
+                button={project.button}
               ></ContentItem>
             ))}
           </div>
